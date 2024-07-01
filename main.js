@@ -17,7 +17,7 @@ function youtube(){
 function openPage(x, y){
     var indice = x;
     var target = y;
-    var url = "content/content" + indice + ".html";
+    var url = "https://renatohanks.github.io/muhard/content/content" + indice + ".html";
     var xml = new XMLHttpRequest();
     
 
