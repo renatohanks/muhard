@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/app.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <title>Mu Hard | Início</title>
+</head>
+<body id="body">
+    <header>
+        <div id="top">
+            <div id="icons">
+                <img style="width: 36px; top: 1px; position: relative;" src="img/whats.png" onclick="whats()">
+                <img src="img/insta.png" onclick="insta()">
+                <img src="img/facebook.png" onclick="face()">
+                <img style="width: 45px; position: relative; bottom: 2px;" src="img/youtube.png" onclick="youtube()">
+            </div>
+            <ol id="menu">
+                <a onclick="openPage('A', 'discover')">HOME</a>
+                <a onclick="openPage('B', 'discover')">DOWNLOADS</a>
+                <a onclick="openPage('C', 'discover')">SUPORTE</a>
+                <a onclick="openPage('D', 'discover')">INFO</a>
+                <a id="painel">PAINEL</a>
+            </ol>
+        </div>
+        <div class="player-ctrl">
+            <a id="background-play" onclick="playShow()"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+            <a id="background-pause" onclick="pauseShow()" style="display:none;"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+          </div>
+          <audio autoplay id="background-audio">
+              <source autoplay src="img/songtheme.mp3" type="audio/mpeg">
+          </audio>
+    </header>
+    <div id="container0">
+        <div id="discover">
+            <div class="carrossel" style="top: 1750px;">
+                <div class="container2" id="img">
+                    <img src="img/other/01.png">
+                    <img src="img/other/02.png">
+                    <img src="img/other/03.png">
+                    <img src="img/other/04.png">
+                    <img src="img/other/05.png">
+                    <img src="img/other/06.png">
+                    <img src="img/other/07.png">
+                    <img src="img/other/08.png">
+                    <img src="img/other/09.png">
+                    <img src="img/other/10.png">
+                    <img src="img/other/11.png">
+                    <img src="img/other/12.png">
+                    <img src="img/other/13.png">
+                    <img src="img/other/14.png">
+                </div>
+            </div>
+        </div>
+    </div>
+<p style="color: white; text-align: center; white-space: nowrap; position: relative; top: 320px; left: 100px; font-family: var(--font);">2024 MuHard | AllRights Reserved. | hardgamesdevoloped</p>
+<script src="main.js"></script>
+</body>
+</html>
