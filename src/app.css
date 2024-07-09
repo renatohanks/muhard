@@ -529,7 +529,7 @@ h2 {
             align-items: center;
             gap: 30px;
             top: 60px;
-            left: 150px;
+            left: 140px;
 
             a {
                 list-style: none;
@@ -567,7 +567,7 @@ h2 {
             display: flex;
             position: relative;
             align-items: end;
-            left: 990px;
+            left: 1010px;
             top: -200px;
             gap: 15px;
 
