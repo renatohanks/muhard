@@ -281,7 +281,7 @@ body {
     padding: 656px 600px;
     display: flex;
     position: absolute;
-    top: -700px;
+    top: -600px;
     left: -10px;
 }
 
@@ -432,7 +432,7 @@ h2 {
 }
 
 #welcome {
-    bottom: 650px;
+    bottom: 620px;
     color: rgb(255, 255, 255);
     background: goldenrod;
     border-radius: 10px;
