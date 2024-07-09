@@ -469,7 +469,7 @@ h2 {
 
 .required {
     position: absolute;
-    bottom: 100px;
+    bottom: 130px;
     left: 580px;
     color: white;
     font: bold 15pt var(--font);
