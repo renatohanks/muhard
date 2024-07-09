@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/app.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <title>Mu Hard | Início</title>
+</head>
+<body id="body">
+    <div class="wallpapermobile"></div>
+    <header>
+        <div id="top">
+            <div id="icons">
+                <img src="img/whats.png" width="60" onclick="whats()">
+                <img src="img/insta.png" width="60" onclick="insta()">
+                <img src="img/facebook.png" width="60" onclick="face()">
+                <img src="img/youtube.png" onclick="youtube()">
+            </div>
+            <ol id="menu">
+                <a onclick="openPage('A', 'discover')">HOME</a>
+                <a onclick="openPage('B', 'discover')">DOWNLOADS</a>
+                <a onclick="openPage('C', 'discover')">SUPORTE</a>
+                <a onclick="openPage('D', 'discover')">INFO</a>
+                <a id="painel">PAINEL</a>
+            </ol>
+        </div>
+        <div class="player-ctrl">
+            <a id="background-play" onclick="playShow()"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+            <a id="background-pause" onclick="pauseShow()" style="display:none;"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+          </div>
+          <audio autoplay id="background-audio">
+              <source autoplay src="img/songtheme.mp3" type="audio/mpeg">
+          </audio>
+    </header>
+    <div id="container0">
+        <div id="discover">
+            <img src="img/check.png" alt="">
+            <h2>Mensagem enviada com Sucesso!</h2>
+        </div>
+    </div>
+<p class="footer">2024 MuHard | AllRights Reserved. | hardgamesdevoloped</p>
+<script src="main.js"></script>
+</body>
+</html>

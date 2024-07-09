@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/app.css">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <title>Mu Hard | Início</title>
+</head>
+<body id="body">
+    <header>
+        <div id="top">
+            <div id="icons">
+                <img src="img/whats.png" onclick="whats()">
+                <img src="img/insta.png" onclick="insta()">
+                <img src="img/facebook.png" onclick="face()">
+                <img class="ytb" src="img/youtube.png" onclick="youtube()">
+            </div>
+            <ol id="menu">
+                <a onclick="openPage('A', 'discover')">HOME</a>
+                <a onclick="openPage('B', 'discover')">DOWNLOADS</a>
+                <a onclick="openPage('C', 'discover')">SUPORTE</a>
+                <a onclick="openPage('D', 'discover')">INFO</a>
+                <a id="painel">PAINEL</a>
+            </ol>
+        </div>
+        <div class="player-ctrl">
+            <a id="background-play" onclick="playShow()"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+            <a id="background-pause" onclick="pauseShow()" style="display:none;"><img class="logo" src="img/favicon.png"  onclick="openPage('A', 'discover')"></a>
+          </div>
+          <audio autoplay id="background-audio">
+              <source autoplay src="img/songtheme.mp3" type="audio/mpeg">
+          </audio>
+    </header>
+    <div id="container0">
+        <div id="discover">
+            <div class="carrossel">
+                <div class="container2">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <input type="radio" name="radio-btn" id="radio6">
+                    <input type="radio" name="radio-btn" id="radio7">
+                    <input type="radio" name="radio-btn" id="radio8">
+                    <input type="radio" name="radio-btn" id="radio9">
+                    <input type="radio" name="radio-btn" id="radio10">
+                    <input type="radio" name="radio-btn" id="radio11">
+                    <input type="radio" name="radio-btn" id="radio12">
+                    <div class="slide first">
+                        <img src="img/other/01.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/02.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/03.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/04.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/05.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/06.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/07.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/08.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/09.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/10.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/11.png">
+                    </div>
+                    <div class="slide">
+                        <img src="img/other/12.png">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                        <div class="auto-btn9"></div>
+                        <div class="auto-btn10"></div>
+                        <div class="auto-btn11"></div>
+                        <div class="auto-btn12"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                    <label for="radio9" class="manual-btn"></label>
+                    <label for="radio10" class="manual-btn"></label>
+                    <label for="radio11" class="manual-btn"></label>
+                    <label for="radio12" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+<p class="footer">2024 MuHard | AllRights Reserved. | hardgamesdevoloped</p>
+<script src="main.js"></script>
+</body>
+</html>
