@@ -278,10 +278,10 @@ body {
 
 #container2 {
     backdrop-filter: blur(10px);
-    padding: 670px 600px;
+    padding: 670px 520px;
     display: flex;
     position: absolute;
-    top: -150px;
+    top: -200px;
     left: -10px;
 }
 
@@ -305,7 +305,7 @@ body {
 
 #container3 {
     backdrop-filter: blur(10px);
-    padding: 734px 712px;
+    padding: 734px 720px;
     position: absolute;
     top: 20px;
     left: 0px;
@@ -407,7 +407,7 @@ h2 {
 }
 
 #container4{
-    padding: 365px 76px;
+    padding: 365px 82px;
     position: absolute;
     backdrop-filter: blur(10px);
     top: 10px;
