@@ -288,6 +288,7 @@ body {
 #downloads {
     position: relative;
     left: -60px;
+    bottom: 70px;
     font: bold 19pt var(--font);
     background: goldenrod;
     padding: 20px;
@@ -296,7 +297,7 @@ body {
 }
 
 .download {
-    bottom: 70px;
+    bottom: 100px;
     left: -10px;
     width: 200px;
     position: relative;
